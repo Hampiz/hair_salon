@@ -4,71 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hair Salon</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <script src="../js/script.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="../js/script.js"></script>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <h1>Hair Salon</h1>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-        <nav class="nav">
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="nav-list" id="nav-list">
-                <li><a href="index.html">Hem</a></li>
-                <li><a href="services.html">Tjänster</a></li>
-                <li><a href="aboutus.html">Om Oss</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-            </ul>
-        </nav>
+        <ul class="nav-list">
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="services.html">Tjänster</a></li>
+            <li><a href="aboutus.html">Om Oss</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Välkommen till Hair Salon</h1>
+            <p>Exklusiv hårvård för en lyxig känsla</p>
+            <a href="services.html" class="btn">Boka en tid</a>
+        </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h2>Välkommen till Hair Salon</h2>
-                <p>Vi erbjuder professionella hårvårdstjänster för alla hårtyper.</p>
-            </div>
-        </section>
 
-        <section class="services">
-            <h2>Våra Tjänster</h2>
-            <div class="service-cards">
-                <div class="card">
-                    <h3>Klippning</h3>
-                    <p>Uppdatera din stil med en ny klippning!</p>
-                </div>
-                <div class="card">
-                    <h3>Färgning</h3>
-                    <p>Få den perfekta färgen för ditt hår.</p>
-                </div>
-                <div class="card">
-                    <h3>Styling</h3>
-                    <p>Få den perfekta looken för alla tillfällen.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-section">
-                <h4>Kontakt</h4>
-                <p>Telefon: 012-345 6789</p>
-                <p>Email: info@hairsalon.se</p>
-            </div>
-            <div class="footer-section">
-                <h4>Öppettider</h4>
-                <p>Mån-Fre: 09:00 - 18:00</p>
-                <p>Lördag: 10:00 - 15:00</p>
-                <p>Söndag: Stängt</p>
-            </div>
-        </div>
-        <p class="footer-bottom">&copy; 2025 Hair Salon | Alla rättigheter förbehållna</p>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Hair Salon | Alla rättigheter förbehållna</p>
     </footer>
+
 </body>
 </html>
