@@ -110,3 +110,12 @@ footer {
     background: #333;
     color: white;
 }
+
+.nav-list a:hover {
+    background-color: #e67e22; /* Orange background */
+    color: white; /* Keep text color readable */
+    padding: 5px 10px; /* Add padding to make the effect visible */
+    border-radius: 5px; /* Optional rounded edges */
+    transition: background-color 0.3s ease-in-out;
+}
+
