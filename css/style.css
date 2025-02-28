@@ -316,3 +316,12 @@ footer p:nth-child(2) {
 .booking-page .boka-nu:hover {
     transform: scale(1.1);
 }
+
+/* Styling för bilder under varje service */
+.booking-page .service-card img {
+    width: 100%; /* Gör bilden så bred som kortet */
+    height: auto; /* Låter höjden justeras proportionellt */
+    margin-top: 15px; /* Lite avstånd mellan text och bild */
+    border-radius: 8px; /* Rundade hörn för bilden */
+    object-fit: cover; /* Gör så att bilden täcker området utan att bli förvrängd */
+}
