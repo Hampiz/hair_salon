@@ -1,4 +1,9 @@
-/* Contact Section */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 0;
+}
 .contact-container {
     max-width: 600px;
     margin: 80px auto 50px;
@@ -132,7 +137,6 @@ footer {
     transform: scale(1.2);
 }
 
-/* Text above social media icons */
 footer p:nth-child(2) {
     font-size: 18px;
     font-weight: bold;
