@@ -243,24 +243,6 @@ footer p:nth-child(2) {
     }
 }
 
-/* Scroll to Top Button */
-#scrollToTopBtn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #e67e22;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: none;
-}
-
-#scrollToTopBtn:hover {
-    background-color: #d35400;
-}
-
 /* Contact Section */
 .contact-container {
     max-width: 600px;
