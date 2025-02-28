@@ -6,111 +6,22 @@
     <title>Contact Us - Hair Salon</title>
     <link rel="stylesheet" href="../css/style.css">
     <script defer src="../js/script.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f8f8;
-            margin: 0;
-            padding: 0;
-        }
-        .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background: #333;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            z-index: 1000;
-        }
-        .menu-toggle {
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-        }
-        .bar {
-            display: block;
-            width: 25px;
-            height: 3px;
-            margin: 5px auto;
-            background-color: white;
-        }
-        .nav-list {
-            position: fixed;
-            left: -100%;
-            top: 0;
-            width: 250px;
-            height: 100vh;
-            background: #333;
-            list-style: none;
-            padding: 50px 20px;
-            transition: 0.3s;
-        }
-        .nav-list.active {
-            left: 0;
-        }
-        .nav-list li {
-            margin-bottom: 20px;
-        }
-        .nav-list a {
-            text-decoration: none;
-            color: white;
-            font-size: 18px;
-        }
-        .contact-container {
-            max-width: 600px;
-            margin: 80px auto 50px;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        h2 {
-            color: #e67e22;
-        }
-        .contact-info p {
-            font-size: 16px;
-            color: #333;
-            margin: 10px 0;
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .contact-form button {
-            background: #e67e22;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-        .contact-form button:hover {
-            background: #d35400;
-        }
-    </style>
 </head>
 <body>
     <nav class="navbar">
-        <div class="menu-toggle" onclick="toggleMenu()">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
         <ul class="nav-list">
-            <li><a href="index.html">Hem</a></li>
-            <li><a href="services.html">Tjänster</a></li>
-            <li><a href="aboutos.html">Om oss</a></li>
-            <li><a href="contact.html">Kontakt</a></li>
+            <li><a href="../html/index.html">Hem</a></li>
+            <li><a href="../html/book.html">Boka tid</a></li>
+            <li><a href="../html/aboutus.html">Om oss</a></li>
+            <li><a href="../html/contact.html">Kontakt</a></li>
         </ul>
     </nav>
+
     <div class="contact-container">
         <h2>Contact Us</h2>
         <div class="contact-info">
@@ -130,5 +41,21 @@
             document.querySelector('.nav-list').classList.toggle('active');
         }
     </script>
+    <button id="scrollToTopBtn">⬆ Till toppen</button>
+
+    <footer>
+        <p>&copy; 2025 Hair Salon | Alla rättigheter förbehållna</p>
+        <p>Följ oss på våra sociala medier</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="../media/eyestetix-studio-4FgnlzwfA7I-unsplash.jpg" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="../media/alexander-shatov-CTZhGbSxWLI-unsplash.jpg" alt="Facebook">
+            </a>
+        </div>
+    </footer>
+    
+
 </body>
 </html>
