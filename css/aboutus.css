@@ -318,3 +318,23 @@ footer p:nth-child(2) {
     font-weight: bold;
     margin-bottom: 5px;
 }
+
+@media (min-width: 768px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    .nav-list {
+        position: static;
+        width: auto;
+        height: auto;
+        display: flex;
+        gap: 20px;
+        background: none;
+        padding: 0;
+    }
+
+    .nav-list li {
+        margin-bottom: 0;
+    }
+}
