@@ -4,11 +4,13 @@ body {
     background-color: #f8f8f8;
     padding: 0;
 }
+
 .contact-container {
     max-width: 600px;
-    margin: 80px auto 50px;
+    min-height: 600px;
+    margin: 100px auto 50px;
     background: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -149,8 +151,8 @@ footer p:nth-child(2) {
     }
 
     .nav-list {
-        position: fixed;
         left: -100%;
+        position: fixed;
         top: 0;
         width: 250px;
         height: 100vh;
