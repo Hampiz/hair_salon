@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titel för webbsidan som syns i webbläsarens flik -->
     <title>Kontakta oss - Hair Salon Beauty Street</title>
+    <!-- Länkar till extern CSS-fil för styling av sidan -->
     <link rel="stylesheet" href="../css/contact.css">
+    <!-- Länkar till extern JavaScript-fil för interaktiv funktionalitet -->
     <script defer src="../js/contact.js"></script>
 </head>
+
 <body>
     <header>
-        <!-- Nav bar -->
+        <!-- Navbar -->
         <nav class="navbar">
+            <!-- Mobilmeny -->
             <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
+                <span class="bar"></span> <!-- Visuella streck för mobilmenyn -->
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
+            <!-- Lista över navigeringslänkar -->
             <ul class="nav-list">
                 <li><a href="../html/index.html">Hem</a></li>
                 <li><a href="../html/book.html">Boka tid</a></li>
@@ -25,17 +32,26 @@
         </nav>
     </header>
 
+    <!-- Rubrik för kontaktsidan -->
     <div class="contact-container">
         <h2>Kontakta oss</h2>
+
         <div class="contact-info">
+            <!-- Kontaktinformation som telefonnummer, email och adress -->
             <p><strong>Telefon:</strong> +46 45 067 89 02</p>
             <p><strong>Email:</strong> kontakt@hairsalonbeautystreet.com</p>
             <p><strong>Adress:</strong> 123 Beauty Street, Hairtown, HT 45678</p>
         </div>
+
+        <!-- Kontaktformulär -->
         <form class="contact-form">
+            <!-- Fält för användarnamn -->
             <input type="text" placeholder="Namn" required>
+            <!-- Fält för användarens email -->
             <input type="email" placeholder="Email" required>
+            <!-- Textområde för meddelande -->
             <textarea placeholder="Meddelande" rows="5" required></textarea>
+            <!-- Skicka-knapp för att skicka meddelandet -->
             <button type="submit">Skicka meddelande</button>
         </form>
     </div>
@@ -43,17 +59,20 @@
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Hair Salon Beauty Street | Alla rättigheter förbehållna</p>
-        <p>Följ oss på våra sociala medier</p>
+        <p>Följ oss på våra sociala medier</p> 
+
         <div class="social-icons">
+            <!-- Instagram-länk med bild -->
             <a href="https://www.instagram.com/" target="_blank">
-                <img src="../media/rsz_eyestetix-studio-4fgnlzwfa7i-unsplash.jpg" alt="Instagram"> 
+                <img src="../media/rsz_eyestetix-studio-4fgnlzwfa7i-unsplash.jpg" alt="Instagram">
             </a>
+            <!-- Facebook-länk med bild -->
             <a href="https://www.facebook.com/" target="_blank">
                 <img src="../media/rsz_alexander-shatov-ctzhgbsxwli-unsplash.jpg" alt="Facebook">
             </a>
         </div>
     </footer>
-    
 
 </body>
+
 </html>

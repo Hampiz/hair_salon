@@ -1,3 +1,4 @@
+/* Grundläggande styling för hela sidan */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -5,6 +6,7 @@ body {
     padding: 0;
 }
 
+/* Om oss-sektion */
 .about-us {
     text-align: center;
     padding: 50px 20px;
@@ -29,6 +31,7 @@ body {
     border-radius: 8px;
 }
 
+/* Navbar */
 .navbar {
     position: fixed;
     top: 0;
@@ -42,6 +45,7 @@ body {
     z-index: 1000;
 }
 
+/* Hamburgermeny för mobilanpassning */
 .menu-toggle {
     cursor: pointer;
     display: flex;
@@ -56,6 +60,7 @@ body {
     background-color: white;
 }
 
+/* Navigeringslänklista */
 .nav-list {
     position: fixed;
     left: -100%;
@@ -91,6 +96,7 @@ body {
     border-radius: 5px;
 }
 
+/* Sidfot (Footer) */
 footer {
     text-align: center;
     padding: 20px;
@@ -101,6 +107,7 @@ footer {
     align-items: center;
 }
 
+/* Bokningssektion */
 .booking-section {
     text-align: center;
     padding: 50px 20px;
@@ -114,6 +121,7 @@ footer {
     margin-top: 20px;
 }
 
+/* Bokningskort (Servicekort) */
 .booking-page .service-card {
     background: white;
     padding: 15px;
@@ -139,6 +147,7 @@ footer {
     object-fit: cover;
 }
 
+/* Bokningsknapp */
 .booking-page .boka-nu {
     color: white;
     text-decoration: none;
@@ -154,6 +163,7 @@ footer {
     transform: scale(1.1);
 }
 
+/* Responsiv design - Anpassning för mindre skärmar */
 @media (max-width: 768px) {
     .booking-container {
         flex-direction: column;
@@ -165,6 +175,7 @@ footer {
     }
 }
 
+/* Grid-layout för att organisera innehåll */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -174,6 +185,7 @@ footer {
     margin: auto;
 }
 
+/* Anpassning för mindre skärmar */
 @media (max-width: 768px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
@@ -186,6 +198,7 @@ footer {
     }
 }
 
+/* Kortdesign (Gemensam stil för olika kort) */
 .card,
 .service-card {
     background: white;
@@ -215,6 +228,7 @@ footer {
     border-radius: 15px;
 }
 
+/* Sociala ikoner i sidfoten */
 .social-icons {
     margin-top: 5px;
     display: flex;
@@ -239,6 +253,7 @@ footer p:nth-child(2) {
     margin-bottom: 5px;
 }
 
+/* Anpassning av meny för större skärmar */
 @media (min-width: 768px) {
     .menu-toggle {
         display: flex;

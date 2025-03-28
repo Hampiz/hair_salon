@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titel för webbsidan som syns i webbläsarens flik -->
     <title>Boka Tid - Hair Salon Beauty Street</title>
+    <!-- Länkar till extern CSS-fil för styling -->
     <link rel="stylesheet" href="../css/book.css">
+    <!-- Länkar till extern JavaScript-fil, körs efter att sidan laddats -->
     <script defer src="../js/book.js"></script>
 </head>
+
 <body class="booking-page">
     <header>
-        <!-- Nav bar -->
+        <!-- Navigationsmeny -->
         <nav class="navbar">
-            <div class="menu-toggle" id="mobile-menu">
+            <!-- Mobilmeny -->
+            <div class="menu-toggle" id="mobile-menu"> 
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-            <ul class="nav-list">
+            <ul class="nav-list"> <!-- Lista med navigeringslänkar -->
                 <li><a href="../html/index.html">Hem</a></li>
                 <li><a href="../html/book.html">Boka tid</a></li>
                 <li><a href="../html/aboutus.html">Om oss</a></li>
@@ -24,37 +30,46 @@
             </ul>
         </nav>
     </header>
-
+    <!--Text över bokningsrutorna-->
     <section class="booking-section">
         <h1>Boka en tid hos oss</h1>
         <p>Välj en av våra behandlingar och boka din tid direkt.</p>
 
         <div class="booking-container">
+            <!-- Tjänst: Klippning -->
             <div class="service-card">
                 <h2>Klippning</h2>
-                <img src="../media/rsz_agustin-fernandez-sb5tuw7nr1o-unsplash.jpg" class="service-image" alt="Klippning">
-                <p>Vi erbjuder professionell klippning som passar din stil och ansiktsform. Våra frisörer ger dig råd om vilken frisyr som
-                skulle passa bäst, och hjälper dig att hålla ditt hår friskt och välvårdat.</p>
+                <img src="../media/rsz_agustin-fernandez-sb5tuw7nr1o-unsplash.jpg" class="service-image"
+                    alt="Klippning">
+                    <!--Text till bilden-->
+                <p>Vi erbjuder professionell klippning som passar din stil och ansiktsform. Våra frisörer ger dig råd om
+                    vilken frisyr som skulle passa bäst, och hjälper dig att hålla ditt hår friskt och välvårdat.</p>
                 <p><strong>Pris:</strong> 400 SEK</p>
-                <span class="boka-nu">Boka nu</span>
+                <span class="boka-nu">Boka nu</span> <!-- Bokningsknapp -->
             </div>
 
+            <!-- Tjänst: Färgning -->
             <div class="service-card">
                 <h2>Färgning</h2>
-                <img src="../media/rsz_jessie-dee-dabrowski-www-jessiedee-net-w6cwal7pmsw-unsplash.jpg" class="service-image" alt="Färgning">
-                <p>Ge ditt hår en ny, fräsch färg med våra kvalitetsprodukter. Oavsett om du vill ha en mild toning eller en helt ny nyans,
-                kan våra erfarna frisörer hjälpa dig att skapa det perfekta resultatet.</p>
+                <img src="../media/rsz_jessie-dee-dabrowski-www-jessiedee-net-w6cwal7pmsw-unsplash.jpg"
+                    class="service-image" alt="Färgning">
+                    <!--Text till bilden-->
+                <p>Ge ditt hår en ny, fräsch färg med våra kvalitetsprodukter. Oavsett om du vill ha en mild toning
+                    eller en helt ny nyans, kan våra erfarna frisörer hjälpa dig att skapa det perfekta resultatet.</p>
                 <p><strong>Pris:</strong> 800 SEK</p>
-                <span class="boka-nu">Boka nu</span>
+                <span class="boka-nu">Boka nu</span> <!-- Bokningsknapp -->
             </div>
 
+            <!-- Tjänst: Styling -->
             <div class="service-card">
                 <h2>Styling</h2>
                 <img src="../media/rsz_baylee-gramling-mmz03pycozg-unsplash.jpg" class="service-image" alt="Styling">
-                <p>Perfekt styling för alla tillfällen, från festfrisyrer till vardaglig glamour. Våra frisörer använder professionella
-                produkter för att ge ditt hår det ultimata lyftet, oavsett om du vill ha volym, lockar eller en elegant uppsättning.</p>
+                <!--Text till bilden-->
+                <p>Perfekt styling för alla tillfällen, från festfrisyrer till vardaglig glamour. Våra frisörer använder
+                    professionella produkter för att ge ditt hår det ultimata lyftet, oavsett om du vill ha volym,
+                    lockar eller en elegant uppsättning.</p>
                 <p><strong>Pris:</strong> 600 SEK</p>
-                <span class="boka-nu">Boka nu</span>
+                <span class="boka-nu">Boka nu</span> <!-- Bokningsknapp -->
             </div>
         </div>
     </section>
@@ -64,14 +79,16 @@
         <p>&copy; 2025 Hair Salon Beauty Street | Alla rättigheter förbehållna</p>
         <p>Följ oss på våra sociala medier</p>
         <div class="social-icons">
+            <!-- Instagram-länk med bild -->
             <a href="https://www.instagram.com/" target="_blank">
                 <img src="../media/rsz_eyestetix-studio-4fgnlzwfa7i-unsplash.jpg" alt="Instagram">
             </a>
+            <!-- Facebook-länk med bild -->
             <a href="https://www.facebook.com/" target="_blank">
                 <img src="../media/rsz_alexander-shatov-ctzhgbsxwli-unsplash.jpg" alt="Facebook">
             </a>
         </div>
     </footer>
-    
+
 </body>
 </html>
