@@ -24,7 +24,7 @@ body {
     /* Ser till att navbaren ligger över annat innehåll */
 }
 
-/* Hamburger-meny för små skärmar */
+/* Hamburger-meny (synlig som standard för små skärmar) */
 .menu-toggle {
     cursor: pointer;
     display: flex;
@@ -40,7 +40,7 @@ body {
     background-color: white;
 }
 
-/* Navigationslänkar */
+/* Navigationslänkar (mobil-stil som standard) */
 .nav-list {
     position: fixed;
     left: -100%;
@@ -179,18 +179,30 @@ footer p:nth-child(2) {
     margin-bottom: 5px;
 }
 
-/* Responsiv design för större skärmar */
+/* Responsiv design för större skärmar (mobile-first approach) */
 @media (min-width: 768px) {
+
+    /* Dölj hamburgermenyn på större skärmar */
     .menu-toggle {
-        display: flex;
+        display: none;
     }
 
+    /* Visa navigationslistan horisontellt i navbar på större skärmar */
     .nav-list {
-        left: -100%;
-        /* Dold standardposition */
+        position: static;
+        width: auto;
+        height: auto;
+        background: transparent;
+        backdrop-filter: none;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
     }
 
-    .nav-list.active {
-        left: 0;
+    /* Återställ margin för menyobjekt på större skärmar */
+    .nav-list li {
+        margin-bottom: 0;
     }
 }
