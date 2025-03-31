@@ -22,8 +22,7 @@ body {
 }
 
 /* Styling för bokningskort */
-.booking-page .service-card,
-.card {
+.booking-page .service-card {
     background: white;
     padding: 15px;
     border-radius: 15px;
@@ -38,14 +37,12 @@ body {
 }
 
 /* Förstoringseffekt vid hover på bokningskort */
-.booking-page .service-card:hover,
-.card:hover {
+.booking-page .service-card:hover {
     transform: scale(1.05);
 }
 
 /* Styling för bilder i bokningskort */
-.booking-page .service-card img,
-.card img {
+.booking-page .service-card img {
     width: 100%;
     height: auto;
     max-height: 180px;
@@ -70,11 +67,6 @@ body {
 /* Effekt vid hover på bokningsknapp */
 .booking-page .boka-nu:hover {
     transform: scale(1.1);
-}
-
-/* Grid-container för mobilvy */
-.grid-container {
-    grid-template-columns: repeat(1, 1fr);
 }
 
 /* Navbar-styling */
@@ -154,31 +146,6 @@ footer {
     align-items: center;
 }
 
-/* Om oss-sektion */
-.about-us {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.about-us h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.about-us p {
-    font-size: 18px;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.about-us img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 8px;
-}
-
 /* Sociala ikoner */
 .social-icons {
     margin-top: 5px;
@@ -215,11 +182,6 @@ footer p:nth-child(2) {
         align-items: stretch;
     }
 
-    /* Anpassa grid för större skärmar */
-    .grid-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     /* Dölj hamburgermenyn på större skärmar */
     .menu-toggle {
         display: none;
@@ -243,12 +205,5 @@ footer p:nth-child(2) {
     /* Återställ margin för menyobjekt på större skärmar */
     .nav-list li {
         margin-bottom: 0;
-    }
-}
-
-/* Extra media query för ännu större skärmar */
-@media (min-width: 1200px) {
-    .grid-container {
-        grid-template-columns: repeat(3, 1fr);
     }
 }

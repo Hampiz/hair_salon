@@ -2,9 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    /* Standardtypsnitt */
     background-color: #f8f8f8;
-    /* Ljus bakgrundsfärg */
     padding: 0;
 }
 
@@ -13,13 +11,10 @@ body {
     width: 90%;
     min-height: 600px;
     margin: 100px auto 50px;
-    /* Centrerar container på sidan */
     background: white;
     padding: 20px;
     border-radius: 10px;
-    /* Rundade hörn */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Skuggeffekt */
     text-align: center;
 }
 
@@ -27,7 +22,6 @@ body {
 .contact-info p {
     font-size: 16px;
     color: #333;
-    /* Mörk textfärg */
     margin: 10px 0;
 }
 
@@ -35,19 +29,15 @@ body {
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    /* Tar upp hela bredden */
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
-    /* Ljus gräns */
     border-radius: 5px;
-    /* Rundade hörn */
 }
 
 /* Knapp för att skicka formulär */
 .contact-form button {
     background: #e67e22;
-    /* Orange bakgrund */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -68,16 +58,14 @@ body {
     left: 0;
     width: 100%;
     background: #333;
-    /* Mörk bakgrund */
     padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    /* Ser till att navbar ligger över annat innehåll */
 }
 
-/* Hamburger-meny för mobila enheter (standardvy) */
+/* Hamburger-meny för mobila enheter */
 .menu-toggle {
     cursor: pointer;
     display: flex;
@@ -97,7 +85,6 @@ body {
 .nav-list {
     position: fixed;
     left: -100%;
-    /* Dold som standard */
     top: 0;
     width: 250px;
     height: 100vh;
@@ -106,7 +93,6 @@ body {
     list-style: none;
     padding: 50px 20px;
     transition: 0.3s;
-    /* Smidig övergång vid visning */
 }
 
 /* När menyn är aktiv (visas) */
@@ -167,14 +153,7 @@ footer {
     transform: scale(1.2);
 }
 
-/* Stil för specifik text i footern */
-footer p:nth-child(2) {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-/* Responsiv design för större skärmar (mobile-first approach) */
+/* Responsiv design för större skärmar */
 @media (min-width: 768px) {
 
     /* Göra kontaktcontainern bredare på desktop */

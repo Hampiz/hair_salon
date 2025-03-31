@@ -2,9 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    /* Standardtypsnitt */
     background-color: #f8f8f8;
-    /* Ljus bakgrundsfärg */
     padding: 0;
 }
 
@@ -15,13 +13,11 @@ body {
     left: 0;
     width: 100%;
     background: #333;
-    /* Mörk bakgrund */
     padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    /* Ser till att navbaren ligger över annat innehåll */
 }
 
 /* Hamburger-meny (synlig som standard för små skärmar) */
@@ -44,7 +40,6 @@ body {
 .nav-list {
     position: fixed;
     left: -100%;
-    /* Dold som standard */
     top: 0;
     width: 250px;
     height: 100vh;
@@ -53,7 +48,6 @@ body {
     list-style: none;
     padding: 50px 20px;
     transition: 0.3s;
-    /* Smidig övergång vid visning */
 }
 
 /* När menyn är aktiv (visas) */
